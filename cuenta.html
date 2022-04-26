@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nucleus's Sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__barra">
+                <div class="header__logo">
+                    <img src="build/img/logo.svg" alt="logo nucleus">
+                </div>
+            </div>
+            <div class="header-nucleus__grid">
+                <div class="header-nucleus__descripcion">
+                    <h2 class="header-nucleus__heading">Recibe y realiza nuestros pagos
+                        en tu celular con Nucleus
+                    </h2>
+                </div>
+                <div class="header-nucleus__imagen">
+                    <img src="build/img/app_1.svg" alt="app nucleus">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="cuenta cuenta__container">
+        <fieldset class="cuenta__datos">
+                <legend class="cuenta__heading">Nueva Cuenta</legend>
+                <form class="cuenta__formulario">
+                    <div class="cuenta__campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Tu Nombre">
+                    </div>
+
+                    <div class="cuenta__campo">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Tu Email">
+                    </div>
+
+                    <div class="cuenta__campo">
+                        <label for="tel">Telefono:</label>
+                        <input type="tel" id="tel" placeholder="Telefono">
+                    </div>
+                    
+                    <div class="cuenta__campo">
+                        <input class="cuenta__campo--submit" type="submit" value="Registrar">
+                    </div>
+
+                </form>
+        </fieldset>
+    </main>
+    
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__barra">
+                <div class="footer__logo">
+                    <img src="build/img/logo-blanco.svg" alt="logo b-nucleus">
+                </div>
+                <div class="footer__regresar">
+                    <a href="index.html" class="footer__link">Regresar</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright__descripcion">
+              &copy; Todos los derechos reservados 2022
+            </p>
+            <a class="footer__copyright__whatsapp" href="tel:311-257-64-60">
+              <ion-icon name="logo-whatsapp"></ion-icon> 311-257-64-60
+            </p>
+            <a href="https://www.linkedin.com/in/enriqueortizlo/">
+              <p class="footer__copyright__linkedin">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </p>
+            </a>
+            <a href="https://github.com/EnriqueOrtiz95">
+              <p class="footer__copyright__github">
+                <ion-icon name="logo-github"></ion-icon>
+              </p>
+            </a>
+          </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+</body>
+</html>
